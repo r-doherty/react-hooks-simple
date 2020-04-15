@@ -4,8 +4,6 @@ import axios from 'axios';
 const ResourceList = ({ resource }) => {
     const [resources, setResources] = useState([]);
 
-    const fetchResource = 
-
     useEffect(
         () => {
             (async (resource) => {
